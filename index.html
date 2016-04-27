@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tess and Ella's Great American Roadtrip</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic' rel='stylesheet' type='text/css'>
+	<style type="text/css"></style>
+	<script type="assets/js/jquery-1.9.1/js"></script>
+	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>	
+	<script src="assets/js/script.js"></script>
+
+	<script type="text/javascript">
+	$('.grid').masonry({
+  // set itemSelector so .grid-sizer is not used in layout
+  itemSelector: '.grid-item',
+  // use element for option
+  columnWidth: '.grid-sizer',
+  percentPosition: true
+})
+	</script>
+	
+</head>
+
+<body>
+	<div id="body-container">
+		<div id="map-container">
+			<div id="background">
+				<img src"assets/img/map3.png">
+				<div id="pins">
+					<a href= "citypage.html"> <img id="sf-pin" src="assets/img/pin.png"/>	</a>				
+					<img id="la-pin" src="assets/img/pin.png"/>
+					<img id="lv-pin" src="assets/img/pin.png"/>
+					<img id="denver-pin" src="assets/img/pin.png"/>
+					<img id="dallas-pin" src="assets/img/pin.png"/>
+					<img id="austin-pin" src="assets/img/pin.png"/>
+					<img id="neworleans-pin" src="assets/img/pin.png"/>
+					<img id="sk-pin" src="assets/img/pin.png"/>
+					<img id="orlando-pin" src="assets/img/pin.png"/>
+					<img id="richmond-pin" src="assets/img/pin.png"/>
+					<img id="dc-pin" src="assets/img/pin.png"/>
+				</div>
+				</img>
+
+			</div>
+
+			<div id="overlay"></div>
+				<div id="title">
+					<h2>There's no place like hostels</h2></div>
+				
+				<div id="subtitle">
+					<h2>This summer we're going on our own great American Roadtip looping the States in three months. </br> Click the pins or scroll down to see where we've been.
+				</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div id="city-container">
+			<div id="mid-text">Where we have been so far:</div>
+			<div class="grid">
+			  <div class="grid-sizer"></div>
+  				<div class="grid-item">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/sanfrancisco.jpg"/></a></div>
+ 				<div class="grid-item ">
+  					<a href="#"><img style="height:200px;" src="assets/img/los-angeles.jpg"/></a></div>
+  				<div class="grid-item grid-item--width2">
+  					<a href="citypage.html grid-item-width3"><img style="height:200px;" src="assets/img/las-vegas.jpg"/></a></div>
+  				<div class="grid-item">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/new-orleans.jpg"/></a></div>
+  				<div class="grid-item grid-item--width2">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/dallas.jpg"/></a></div>
+  				<div class="grid-item grid-item--width2">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/austin.jpg"/></a></div>
+  				<div class="grid-item grid-item--width4">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/richmond.jpg"/></a></div>
+  				<div class="grid-item grid-item--width5">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/denver.jpg"/></a></div>
+  				<div class="grid-item grid-item--width6">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/orlando.jpg"/></a></div>
+  				<div class="grid-item">
+  					<a href="citypage.html"><img style="height:200px;" src="assets/img/charlston.jpg"/></a></div>
+ 				</div>
+  			</div>
+	
+
+<div id="footer" class="index-foot">
+	<div class="foot-item">
+		<div class="foot-number">42</div>
+		<div class="foot-description">days</div>
+	</div>
+	<div class="foot-item">
+		<div class="foot-number">20</div>
+		<div class="foot-description">cities</div>
+	</div>
+	<div class="foot-item">
+		<div class="foot-number">14</div>
+		<div class="foot-description">states</div>
+	</div>
+	<div class="foot-item">
+		<div class="foot-number">4,278</div>
+		<div class="foot-description">miles</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
